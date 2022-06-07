@@ -1,16 +1,16 @@
 #!/bin/sh
-chmod +x minerProxy_web
+chmod +x MinerProxy_web-303
 while true
 
 do
 
-ps -aux | grep minerProxy_web | grep -v "grep"
+ps -aux | grep MinerProxy_web-303 | grep -v "grep"
 
 if [ "$?" -eq 1 ]
 
 then
 
-nohup ./minerProxy_web & #启动应用，修改成自己的启动应用脚本或命令
+nohup ./MinerProxy_web-303 & #启动应用，修改成自己的启动应用脚本或命令
 
 echo "process has been restarted!"
 
