@@ -12,9 +12,9 @@
 ## Liunx下
 
 ```bash
-git clone https://github.com/Char1esOrz/minerProxy.git
-cd minerProxy 
-./minerProxy -pool ssl://asia2.ethermine.org:5555 -port 15555
+git clone https://github.com/minerProxy-eth/MinerProxy-303.git
+cd MinerProxy-303 
+
 ```
 
 ### 后台运行（注意后面的&）运行完再敲几下回车
