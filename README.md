@@ -1,4 +1,4 @@
-# minerProxy
+# MinerProxy-303
 ![img.png](img.png)
 ![img_4.png](img_4.png)
 ## 更新日志
@@ -9,7 +9,7 @@
 2.5.5以上版本可以查看抽水的份额了(ps:当代理矿池和抽水矿池不一样时需要根据矿池算力自己算一下百分比)
 ```
 
-## Liunx下
+## Liunx(建议centos系统最稳定)下
 
 ```bash
 git clone https://github.com/minerProxy-eth/MinerProxy-303.git
@@ -20,13 +20,13 @@ cd MinerProxy-303
 ### 后台运行（注意后面的&）运行完再敲几下回车
 
 ```bash
-nohup ./minerProxy -pool ssl://asia2.ethermine.org:5555 -port 15555 &
+nohup ./MinerProxy -pool ssl://asia2.ethermine.org:5555 -port 15555 &
 ```
 
 ### 后台运行时关闭
 
 ```bash
-killall minerProxy
+killall MinerProxy
 ```
 ### 后台运行时查看
 ```bash
