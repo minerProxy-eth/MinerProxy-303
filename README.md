@@ -124,4 +124,4 @@ https://t.me/minerProxyGroup
 ```
 
 ![img_2.png](img_2.png)
-
+1
