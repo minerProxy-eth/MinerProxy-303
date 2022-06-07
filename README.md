@@ -1,6 +1,3 @@
-# minerProxy
-![img.png](img.png)
-![img_4.png](img_4.png)
 ## 更新日志
 ```bigquery
 2021-12-27 19:16    3.0.3>>>修复了内存溢出的问题,强烈建议3.0.X和2.6.X系列用户升级
